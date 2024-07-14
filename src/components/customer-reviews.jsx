@@ -1,5 +1,5 @@
 import React from 'react';
-import { customerReviewsData } from '../Data/CustomerReviewsData';
+import { customerReviewsData } from '../Data/CustomerReviewsData'; 
 
 export const CustomerReviews = () => {
   return (
@@ -12,8 +12,12 @@ export const CustomerReviews = () => {
               <div className="absolute left-1/2 transform -translate-x-1/2 -top-12">
                 <img src={review.image} alt={review.name} className="w-24 h-24 rounded-full object-cover border-4 border-white shadow-md" />
               </div>
-              <div className="mt-16 text-center md:text-left">
-                <p className="text-lg text-gray-700 mb-4">"{review.review}"</p>
+              <div className="mt-12 text-center md:text-left">
+              <img
+                    src="/comma.svg"
+                    className="rounded-full self-start"
+                />
+                <p className="text-lg text-gray-700 mb-4">{review.review}</p>
                 <p className="text-lg font-bold text-gray-900">-{review.name}</p>
               </div>
             </div>

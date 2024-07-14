@@ -8,7 +8,7 @@ export const SalonGallery = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 2000); // Change slide every 3 seconds
+    }, 3000); // Change slide every 3 seconds
     return () => clearInterval(interval);
   }, []);
 
@@ -33,10 +33,10 @@ export const SalonGallery = () => {
   const slides = getSlides();
 
   return (
-    <div className="bg-gray-100 py-12">
-      <div className="mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-8">Our Salon Gallery</h2>
-        <div className=" my-20 relative">
+    <div className="bg-[#FAF6F3] py-24">
+      <div className=" mx-auto px-4">
+        <h2 className="text-4xl font-bold text-center mb-14">Our Salon Gallery</h2>
+        <div className="relative">
           <button
             className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2 bg-gray-800 text-white rounded-full"
             onClick={prevSlide}
@@ -52,12 +52,13 @@ export const SalonGallery = () => {
                 <div key={index} className="inline-block w-full">
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                     {slide.map((image) => (
-                      <img
-                        key={image.id}
-                        src={image.src}
-                        alt={`Slide ${image.id}`}
-                        className="w-full h-auto rounded-lg"
-                      />
+                      <div key={image.id} className="w-full h-64 lg:h-96 overflow-hidden">
+                        <img
+                          src={image.src}
+                          alt={`Slide ${image.id}`}
+                          className="w-full h-full object-cover rounded-lg"
+                        />
+                      </div>
                     ))}
                   </div>
                 </div>

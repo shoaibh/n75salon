@@ -4,7 +4,7 @@ import { whyChooseUsData } from '../Data/WhyChooseUs';
 
 export const WhyChooseUs = () => {
   return (
-    <div className="bg-red-700 text-white py-12 px-6">
+    <div className="bg-[#9F2B2B] text-white py-12 px-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 p-20">
           <div className="flex flex-col	justify-between pl-0 text-center col-span-1 lg:col-span-1">
             <div>
@@ -26,9 +26,9 @@ export const WhyChooseUs = () => {
           </div>
           
           <div className="col-span-1 lg:col-span-2">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+            <div className="grid grid-cols-2 gap-4 text-left">
               {whyChooseUsData.map(item => (
-                <div key={item.id} className="flex justify-center bg-red-600 p-6 rounded-xl">
+                <div key={item.id} className="flex justify-center bg-[#B03A3A] p-6 rounded-xl">
                   <div className="flex items-center mr-6">
                     {item.icon === 'People' && <People />}
                   </div>

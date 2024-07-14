@@ -21,7 +21,7 @@ export const AboutUs = () => {
                 />
             </div>
             <div className="max-w-[50%]">
-                <h1 className="mb-[50px]">About us</h1>
+                <h1 className="mb-[50px] bold">About us</h1>
                 <p className="mb-[40px]">
                     At N75 Salon, we believe that beauty is an art and every
                     individual is a canvas waiting to be adorned. We have been

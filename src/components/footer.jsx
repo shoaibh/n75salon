@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaGoogle, FaYoutube, FaPhone, FaEnv
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-8">
+    <footer className="bg-[#1E1E1E] text-gray-300 py-8">
       <div className="mx-auto px-4 md:px-8 lg:px-16">
         <div className="pb-8 mb-8">
           <div className="flex flex-col justify-between items-center md:items-start space-y-8 md:space-y-0">

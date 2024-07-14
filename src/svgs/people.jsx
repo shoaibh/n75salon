@@ -1,7 +1,3 @@
-// src/components/IconCheckmark.jsx
-
-import React from 'react';
-
 export const People = ({ className }) => (
 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M11.667 30V28.3333C11.667 23.731 15.398 20 20.0003 20C24.6027 20 28.3337 23.731 28.3337 28.3333V30" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
