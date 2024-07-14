@@ -16,14 +16,14 @@ function App() {
     return (
         <>
             <BookService />
-            <OurServices />
+            {/* <OurServices />
             <AboutUs />
             <Packages />
             <WhyChooseUs />
             <SalonGallery />
             <CustomerReviews />
             <ContactUs />
-            <Footer />
+            <Footer /> */}
         </>
     )
 }

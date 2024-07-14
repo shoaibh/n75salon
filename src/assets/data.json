@@ -100,5 +100,170 @@
                 "Foot Massage"
             ]
         }
+    ],
+    "packages": [
+        {
+            "title": "Package 1 men",
+            "services": [
+                {
+                    "service_title": "Haircut",
+                    "price": 250
+                },
+                {
+                    "service_title": "Beard trimming",
+                    "price": 150
+                },
+                {
+                    "service_title": "Hair wash",
+                    "price": 100
+                },
+                {
+                    "service_title": "Hair dry",
+                    "price": 100
+                },
+                {
+                    "service_title": "Pedicure with Foot massage",
+                    "price": 1000
+                },
+                {
+                    "service_title": "Hair spa",
+                    "price": 1200
+                }
+            ],
+            "total": 2800,
+            "offer_price": 1999,
+            "type": "men"
+        },
+        {
+            "title": "Package 1 men",
+            "services": [
+                {
+                    "service_title": "Haircut",
+                    "price": 250
+                },
+                {
+                    "service_title": "Beard trimming",
+                    "price": 150
+                },
+                {
+                    "service_title": "Hair wash",
+                    "price": 100
+                },
+                {
+                    "service_title": "Hair dry",
+                    "price": 100
+                },
+                {
+                    "service_title": "Pedicure with Foot massage",
+                    "price": 1000
+                },
+                {
+                    "service_title": "Hair spa",
+                    "price": 1200
+                },
+                {
+                    "service_title": "Hair color",
+                    "price": 1000
+                }
+            ],
+            "total": 4000,
+            "offer_price": 2999,
+            "type": "men"
+        },
+        {
+            "title": "Package 3 men",
+            "services": [
+                {
+                    "service_title": "Haircut",
+                    "price": 250
+                },
+                {
+                    "service_title": "Beard trimming",
+                    "price": 150
+                },
+                {
+                    "service_title": "Hair dry",
+                    "price": 100
+                },
+                {
+                    "service_title": "Pedicure with Foot massage",
+                    "price": 1000
+                },
+                {
+                    "service_title": "Hair spa",
+                    "price": 1200
+                },
+                {
+                    "service_title": "Hair color",
+                    "price": 1000
+                }
+            ],
+            "total": 3900,
+            "offer_price": 2899,
+            "type": "men"
+        },
+        {
+            "title": "Package 1 women",
+            "services": [
+                {
+                    "service_title": "Haircut",
+                    "price": 250
+                },
+                {
+                    "service_title": "Hair dry",
+                    "price": 100
+                },
+                {
+                    "service_title": "Pedicure with Foot massage",
+                    "price": 1000
+                },
+                {
+                    "service_title": "Hair spa",
+                    "price": 1200
+                },
+                {
+                    "service_title": "Hair color",
+                    "price": 1000
+                }
+            ],
+            "total": 3750,
+            "offer_price": 2749,
+            "type": "women"
+        }
+    ],
+    "special_packages": [
+        {
+            "title": "Special offer for Ladies",
+            "services": [
+                {
+                    "service_title": "Botox",
+                    "price": 8500,
+                    "offer_price": 5999
+                },
+                {
+                    "service_title": "Smoothing",
+                    "price": 6000,
+                    "offer_price": 3999
+                },
+                {
+                    "service_title": "Keratin",
+                    "price": 1000,
+                    "offer_price": 3999
+                },
+                {
+                    "service_title": "Hair spa",
+                    "price": 1200,
+                    "offer_price": 3999
+                },
+                {
+                    "service_title": "Hair color",
+                    "price": 1000,
+                    "offer_price": 3999
+                }
+            ],
+            "total": 3750,
+            "offer_price": 2749,
+            "type": "special"
+        }
     ]
 }
