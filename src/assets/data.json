@@ -1,0 +1,104 @@
+{
+    "services": [
+        {
+            "title": "Hair Services",
+            "img": "/hair-services.png",
+            "bgColor": "#9A997B",
+            "type": "women",
+            "desc": [
+                "Haircuts and Styling",
+                "Hair Coloring (Highlights, Balayage, Ombre, etc.)",
+                "Hair Extensions",
+                "Hair Perming and Straightening",
+                " Hair Treatments (Conditioning, Scalp Treatments)",
+                "Bridal and Special Occasion Hairstyling"
+            ]
+        },
+        {
+            "title": "Nail Services",
+            "img": "/nail-services.png",
+            "bgColor": "#BFACA7",
+            "type": "women",
+            "desc": [
+                "Manicures (Regular, Gel, Acrylic)",
+                "Pedicures (Regular, Spa, Paraffin)",
+                "Nail Art and Design",
+                "Nail Extensions",
+                "Nail Repair and Maintenance"
+            ]
+        },
+        {
+            "title": "Skin Care Services",
+            "img": "/skin-care-services.png",
+            "bgColor": "#716D64",
+            "type": "women",
+            "desc": [
+                "Facials (Deep Cleansing, Hydrating, Anti-Aging, etc.)",
+                "Skin Analysis and Consultation",
+                "Microdermabrasion & Chemical Peels",
+                "Waxing & Hair Removal",
+                "Eyebrow & Eyelash Services (Tinting, Shaping, Extensions)",
+                "Makeup Application (Everyday, Bridal, Special Occasion)"
+            ]
+        },
+        {
+            "title": "Massage",
+            "img": "/massage.png",
+            "bgColor": "#725550",
+            "type": "women",
+            "desc": [
+                "Manicures (Regular, Gel, Acrylic)",
+                "Pedicures (Regular, Spa, Paraffin)",
+                "Nail Art and Design",
+                "Nail Extensions",
+                "Nail Repair and Maintenance"
+            ]
+        },
+        {
+            "title": "Hair Services",
+            "img": "/hair-services-men.png",
+            "bgColor": "#725550",
+            "type": "men",
+            "desc": [
+                "Hair Cut / Shave",
+                "Hair Shampoo/Conditioner",
+                "Hair Coloring",
+                "Hair Spa Healthy"
+            ]
+        },
+        {
+            "title": "Nail Services",
+            "img": "/nail-services.png",
+            "bgColor": "#716D64",
+            "type": "men",
+            "desc": [
+                "Manicures (Regular, Gel, Acrylic)",
+                "Pedicures (Regular, Spa, Paraffin)",
+                "Nail Repair and Maintenance "
+            ]
+        },
+        {
+            "title": "Skin Care Services",
+            "img": "/skin-care-services-men.png",
+            "bgColor": "#BFACA7",
+            "type": "men",
+            "desc": [
+                "Bleach",
+                "Basic Facial",
+                "Advance Facial",
+                "Clean Up",
+                "Misc"
+            ]
+        },
+        {
+            "title": "Massage",
+            "img": "/massage-men.png",
+            "bgColor": "#9A997B",
+            "type": "men",
+            "desc": [
+                "Head Massage",
+                "Foot Massage"
+            ]
+        }
+    ]
+}
